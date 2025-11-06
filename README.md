@@ -27,7 +27,7 @@ Run the following commands in your terminal to create a virtual environment:
 ```bash
 # Create a virtual environment
 python -m venv .venv
----
+
 
 ### Activate the Virtual Environment
 
@@ -48,8 +48,7 @@ Once your virtual environment is activated, install all project dependencies by 
 
 ```bash
 pip install -r requirements.txt
-
-    ```
+```
 
 
 
