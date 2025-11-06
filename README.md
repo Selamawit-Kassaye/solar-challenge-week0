@@ -1,36 +1,37 @@
+# 🌞 Solar Challenge Week 0
 
----
+Follow these steps to set up your local environment and start working on the project.
 
-##  **Environment Setup**
+Copy and paste the commands below:
 
-###  Clone the Repository
+### Prerequisites
 
-```bash
-git clone https://github.com/<your-username>/solar-challenge-week0.git
-cd solar-challenge-week0
+- Python 3.x
+- pandas
+- NumPy
+- Matplotlib
 
+### Installation
 
-### **Create and Activate a Virtual Environment**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/<your-username>/solar-challenge-week0.git
+   cd solar-challenge-week0
+   ```
+2. **Create a virtual environment:**
+   ```bash
+   python -m venv .venv
+   ```
+3. **Activate the virtual environment**
 
-####  Option A — Using `venv`
->  **Copy and paste the commands below:**
+   ```bash
+   # macOS/Linux
+   source .venv/bin/activate
+   # Windows
+   .venv\Scripts\activate
+   ```
 
-
-```bash
-python -m venv .venv
-source .venv/bin/activate       # macOS/Linux
-.venv\Scripts\activate          # Windows
-
-####  Option B — Using `conda`
-
-```bash
-conda create -n solar-env python=3.10 -y
-conda activate solar-env
-
-
-
-### **Install Dependencies**
-```bash
-pip install -r requirements.txt
-
-
+4. **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
