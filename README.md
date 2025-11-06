@@ -16,29 +16,39 @@ git clone https://github.com/<your-username>/solar-challenge-week0.git
 cd solar-challenge-week0
 
 ---
-### 2 Create and Activate a Virtual Environment
-** Option A — Using `venv` **
+## 2. Create and Activate a Virtual Environment
 
-**Run the following commands in your terminal:**
+We recommend using Python’s built-in `venv` module.
+
+### Option A — Using `venv`
+
+Run the following commands in your terminal to create a virtual environment:
 
 ```bash
 # Create a virtual environment
 python -m venv .venv
+---
 
-# Activate the virtual environment
+### Activate the Virtual Environment
 
+After creating the virtual environment, activate it using the commands below:
+
+```bash
 # macOS/Linux
- ```bash
 source .venv/bin/activate
 
 # Windows
- ```bash
 .venv\Scripts\activate
+
 ---
 
-**Install the required packages:**
-    ```bash
-    pip install -r requirements.txt
+### 3. Install the Required Packages
+
+Once your virtual environment is activated, install all project dependencies by running:
+
+```bash
+pip install -r requirements.txt
+
     ```
 
 
