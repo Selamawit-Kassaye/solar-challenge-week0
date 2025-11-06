@@ -1,36 +1,39 @@
 
+# 🌞 Solar Challenge Week 0
+
+##  Environment Setup
+
+Follow these steps to set up your local environment and install dependencies.
+
 ---
 
-##  **Environment Setup**
+### 1 Clone the Repository
 
-###  Clone the Repository
+> 📋 Copy and paste the commands below:
 
 ```bash
 git clone https://github.com/<your-username>/solar-challenge-week0.git
 cd solar-challenge-week0
 
 
-### **Create and Activate a Virtual Environment**
 
-####  Option A — Using `venv`
->  **Copy and paste the commands below:**
 
+# Project Setup
+
+## 1. Create and Activate a Virtual Environment
+
+### Option A — Using `venv`
+
+Run the following commands in your terminal:
 
 ```bash
+# Create a virtual environment
 python -m venv .venv
-source .venv/bin/activate       # macOS/Linux
-.venv\Scripts\activate          # Windows
 
-####  Option B — Using `conda`
+# Activate the virtual environment
 
-```bash
-conda create -n solar-env python=3.10 -y
-conda activate solar-env
+# macOS/Linux
+source .venv/bin/activate
 
-
-
-### **Install Dependencies**
-```bash
-pip install -r requirements.txt
-
-
+# Windows
+.venv\Scripts\activate
