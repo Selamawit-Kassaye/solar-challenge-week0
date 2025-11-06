@@ -15,8 +15,7 @@ Follow these steps to set up your local environment and install dependencies.
 git clone https://github.com/<your-username>/solar-challenge-week0.git
 cd solar-challenge-week0
 
-
-
+---
 
 # Project Setup
 
