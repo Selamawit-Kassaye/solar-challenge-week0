@@ -32,6 +32,12 @@ Copy and paste the commands below:
    ```
 
 4. **Install the required packages:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. **Install the required packages:**
    ```bash
    pip install -r requirements.txt
    ```
