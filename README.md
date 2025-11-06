@@ -4,22 +4,36 @@ Follow these steps to set up your local environment and start working on the pro
 
 Copy and paste the commands below:
 
+### Prerequisites
+- Python 3.x
+- pandas
+- NumPy
+- Matplotlib
+
+### Installation
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/<your-username>/solar-challenge-week0.git
+    cd solar-challenge-week0
+    ```
+2. **Create a virtual environment:**
+    ```bash
+    python -m venv .venv
+    ```
+3. **Activate the virtual environment**
+    ```bash
+    # macOS/Linux
+    source .venv/bin/activate
+    # Windows
+    .venv\Scripts\activate
+    ```
+
+4. **Install the required packages:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+#### Control and Dynamical parameters
 ```bash
-# Clone the repository
-git clone https://github.com/<your-username>/solar-challenge-week0.git
-cd solar-challenge-week0
-
-# Create a virtual environment
-python -m venv .venv
-
-# Activate the virtual environment
-# macOS/Linux
-source .venv/bin/activate
-# Windows
-.venv\Scripts\activate
-
-# Install required packages
-pip install -r requirements.txt
-
-# Optional: deactivate the virtual environment when done
-deactivate
+...
