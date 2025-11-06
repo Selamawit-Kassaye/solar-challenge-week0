@@ -32,8 +32,4 @@ Copy and paste the commands below:
     ```bash
     pip install -r requirements.txt
     ```
-
-
-#### Control and Dynamical parameters
-```bash
 ...
