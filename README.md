@@ -6,7 +6,7 @@ Copy and paste the commands below:
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3
 - pandas
 - NumPy
 - Matplotlib
