@@ -1,8 +1,9 @@
 # 🌞 Solar Challenge Week 0
 
-Follow these steps to set up your local environment and start working on the project.
+### Project Overview
 
-Copy and paste the commands below:
+This project delivers a data-driven analysis and strategy report designed to pinpoint high-potential regions for solar installation. By performing exploratory data analysis (EDA) and uncovering key environmental trends, the goal is to guide informed decisions that boost operational efficiency and advance the company’s long-term sustainability goals.
+
 
 ### Prerequisites
 
@@ -12,6 +13,9 @@ Copy and paste the commands below:
 - Matplotlib
 
 ### Installation
+Follow these steps to set up your local environment and start working on the project.
+
+Copy and paste the commands below:
 
 1. **Clone the repository:**
    ```bash
