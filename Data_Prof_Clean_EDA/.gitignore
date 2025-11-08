@@ -1,5 +1,4 @@
-
-.csv
-.venv/
 data/
+.csv
 .ipynb_checkpoints
+.venv/
